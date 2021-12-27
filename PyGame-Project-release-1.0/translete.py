@@ -7,7 +7,7 @@ def coding(n):
     return n
 
 def decoding(n):
-    n = unbin(unokt((str(unfakt(n)[1:]))))
+    n = unbin(unokt((unfakt(n))))
     return n
 
 def bin(n):
